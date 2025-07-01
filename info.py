@@ -66,9 +66,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
-OTHER_DB_URI = environ.get('O_DB_URI', "mongodb+srv://vj200812:vj200812@cluster0.btt0vy5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For Other Data Store
-FILE_DB_URI = environ.get('F_DB_URI', "mongodb+srv://Rickyrune2008:Rickyrune2008@cluster0.ng9bvxh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For File Data Store
-SEC_FILE_DB_URI = environ.get('S_DB_URI', "mongodb+srv://pidox36438:pidox36438@cluster0.5wvml.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db is for File Data Store When First Db Is Going To Be Full.
+OTHER_DB_URI = environ.get('OTHER_DB_URI', "mongodb+srv://vj200812:vj200812@cluster0.btt0vy5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For Other Data Store
+FILE_DB_URI = environ.get('FILE_DB_URI', "mongodb+srv://Rickyrune2008:Rickyrune2008@cluster0.ng9bvxh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For File Data Store
+SEC_FILE_DB_URI = environ.get('SEC_FILE_DB_URI', "mongodb+srv://pidox36438:pidox36438@cluster0.5wvml.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db is for File Data Store When First Db Is Going To Be Full.
 
 
 # Premium And Referal Settings
